@@ -273,14 +273,18 @@ a {
 }
 
 .footer-items {
-	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	padding-top: 30px;
+	position: relative;
 }
 
 .footer-text {
 	font-size: 13px;
 	line-height: 18px;
 	color: #363636;
+}
+
+.footer-logo {
+	position: absolute;
+	right: 0;
+	top: 20px;
 }
